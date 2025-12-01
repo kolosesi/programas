@@ -1,0 +1,19 @@
+*{box-sizing:border-box;font-family:Arial,Helvetica,sans-serif}
+body{background:#0b1220;color:#e6eef8;display:flex;align-items:center;justify-content:center;min-height:100vh;margin:0;padding:18px}
+.game{width:900px;background:#0f1724;padding:18px;border-radius:12px;box-shadow:0 10px 30px rgba(2,6,23,0.6)}
+header{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+.board{display:grid;grid-template-columns:200px 1fr 200px;gap:12px;align-items:start}
+.player{background:#0b1220;border:1px solid rgba(255,255,255,0.03);padding:12px;border-radius:8px}
+.player h2{margin:0 0 8px 0}
+.lives{margin-bottom:8px}
+.lives .heart{display:inline-block;margin-right:6px;color:#ef4444}
+.items{font-size:0.9rem;color:#9aa8b8}
+.log{background:#071024;padding:10px;border-radius:8px;height:220px;overflow:auto;border:1px solid rgba(255,255,255,0.03)}
+.action{margin-top:14px;background:#071024;padding:12px;border-radius:8px}
+.action-row{display:flex;gap:10px;align-items:center;margin-bottom:8px}
+button{background:#1f2937;color:#e6eef8;border:0;padding:10px 12px;border-radius:6px;cursor:pointer}
+button.shoot{background:#06b6d4;color:#042c33;font-weight:700}
+.roja{color:#ff6b6b;font-weight:700}
+.azul{color:#7cc0ff;font-weight:700}
+.note{font-size:0.85rem;color:#9aa8b8}
+#actionItems span{margin-right:8px;padding:6px 8px;background:#0f2130;border-radius:6px}

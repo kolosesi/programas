@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Calculadora Científica</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="calculator">
+    <header>
+      <h1>Calculadora Científica</h1>
+      <div class="mode">Modo: <button id="modeBtn">RAD</button></div>
+    </header>
+
+    <input id="display" class="display" type="text" readonly />
+
+    <div class="buttons">
+      <!-- Row: functions -->
+      <button onclick="insert('(')">(</button>
+      <button onclick="insert(')')">)</button>
+      <button onclick="insert('π')">π</button>
+      <button onclick="insert('e')">e</button>
+      <button onclick="backspace()">DEL</button>
+
+      <!-- Row: scientific -->
+      <button onclick="insert('sin(')">sin</button>
+      <button onclick="insert('cos(')">cos</button>
+      <button onclick="insert('tan(')">tan</button>
+      <button onclick="insert('log(')">log</button>
+      <button onclick="insert('ln(')">ln</button>
+
+      <!-- Row: numbers/operators -->
+      <button onclick="insert('7')">7</button>
+      <button onclick="insert('8')">8</button>
+      <button onclick="insert('9')">9</button>
+      <button onclick="insert('/')">÷</button>
+      <button onclick="insert('^')">^</button>
+
+      <button onclick="insert('4')">4</button>
+      <button onclick="insert('5')">5</button>
+      <button onclick="insert('6')">6</button>
+      <button onclick="insert('*')">×</button>
+      <button onclick="insert('sqrt(')">√</button>
+
+      <button onclick="insert('1')">1</button>
+      <button onclick="insert('2')">2</button>
+      <button onclick="insert('3')">3</button>
+      <button onclick="insert('-')">−</button>
+      <button onclick="insert('pow(')">pow</button>
+
+      <button onclick="insert('0')">0</button>
+      <button onclick="insert('.')">.</button>
+      <button onclick="clearDisplay()">C</button>
+      <button onclick="insert('+')">+</button>
+      <button onclick="calculate()" class="equals">=</button>
+    </div>
+
+    <footer>
+      <p>Construida con HTML/CSS/JS — abre este archivo en tu navegador para usarla.</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

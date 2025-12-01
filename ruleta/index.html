@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Ruleta Rusa - 2 Jugadores</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="game">
+    <header>
+      <h1>Ruleta Rusa (2 jugadores)</h1>
+      <div class="controls">
+        <button id="resetBtn">Reiniciar juego</button>
+      </div>
+    </header>
+
+    <section class="board">
+      <div class="player" id="player0">
+        <h2>Jugador 1</h2>
+        <div class="lives" id="lives0"></div>
+        <div class="items" id="items0"></div>
+      </div>
+
+      <div class="log" id="log"></div>
+
+      <div class="player" id="player1">
+        <h2>Jugador 2</h2>
+        <div class="lives" id="lives1"></div>
+        <div class="items" id="items1"></div>
+      </div>
+    </section>
+
+    <section class="action">
+      <h3 id="turnTitle">Turno: Jugador 1</h3>
+
+      <div class="action-row">
+        <label>Objetos disponibles: </label>
+        <div id="actionItems"></div>
+      </div>
+
+      <div class="action-row">
+        <label>Elegir objetivo:</label>
+        <label><input type="radio" name="target" value="self" checked> A sí mismo</label>
+        <label><input type="radio" name="target" value="opponent"> Oponente</label>
+      </div>
+
+      <div class="action-row">
+        <button id="useAleta">Usar Aleta de pollo (+1 vida)</button>
+        <button id="useLupa">Usar Lupa (revela la próxima bala)</button>
+        <button id="shootBtn" class="shoot">Disparar</button>
+      </div>
+
+      <div class="note">
+        <p><strong>Reglas (resumen):</strong> Cada jugador comienza con 5 vidas. Cada disparo puede ser <span class="roja">roja</span> (daño -1) o <span class="azul">azul</span> (sin daño). Si te disparas y sale azul, conservas el turno; si te disparas y sale roja pierdes 1 vida y pasa el turno; si disparas al oponente (sea azul o roja) el turno pasa al oponente (es decir, el que recibió el disparo siempre tiene el siguiente turno). Cada jugador recibe 2 objetos aleatorios al inicio (aletas o lupas).</p>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

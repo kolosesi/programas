@@ -1,0 +1,22 @@
+*{box-sizing:border-box;font-family:Inter,system-ui,Segoe UI,Roboto,Arial}
+body{margin:0;background:linear-gradient(180deg,#071023,#0f1724);color:#e6eef8;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:20px}
+.pokedex{width:1100px;background:#071426;padding:18px;border-radius:12px;box-shadow:0 12px 40px rgba(2,6,23,0.6)}
+header h1{margin:0;font-size:1.6rem}
+.subtitle{margin:6px 0 14px 0;color:#9fb0c4}
+.controls{display:flex;gap:10px;align-items:center;margin-bottom:14px}
+.controls select,input,button{padding:8px 10px;border-radius:8px;border:0;background:#0f2130;color:#e6eef8}
+.controls input{flex:1}
+.status{margin-left:8px;color:#9fb0c4;font-size:0.9rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}
+.card{background:#0b1220;border-radius:10px;padding:12px;border:1px solid rgba(255,255,255,0.03);display:flex;flex-direction:column;align-items:center}
+.card img{width:120px;height:120px;object-fit:contain;margin-bottom:6px}
+.card h3{margin:6px 0 4px 0;font-size:1.05rem;text-transform:capitalize}
+.meta{font-size:0.85rem;color:#9fb0c4;margin-bottom:8px}
+.types{display:flex;gap:6px;margin-bottom:6px}
+.type{padding:4px 8px;border-radius:999px;background:#142a3a;color:#cfeaf6;font-weight:600;font-size:0.8rem;text-transform:capitalize}
+.stats{width:100%;font-size:0.8rem;color:#cbdbe6}
+.stat{display:flex;justify-content:space-between}
+.footer{margin-top:12px;color:#8aa0b6}
+.loading{padding:16px;text-align:center;color:#9fb0c4}
+.error{color:#ff9b9b}
+@media (max-width:1120px){.pokedex{width:100%}}

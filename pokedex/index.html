@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Pokédex por Generación</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="pokedex">
+    <header>
+      <h1>Pokédex por Generación</h1>
+      <p class="subtitle">Selecciona una generación para cargar todos sus Pokémon con imagen y datos (usa PokeAPI)</p>
+    </header>
+
+    <section class="controls">
+      <label for="generation">Generación:</label>
+      <select id="generation">
+        <option value="1">Generación I</option>
+        <option value="2">Generación II</option>
+        <option value="3">Generación III</option>
+        <option value="4">Generación IV</option>
+        <option value="5">Generación V</option>
+        <option value="6">Generación VI</option>
+        <option value="7">Generación VII</option>
+        <option value="8">Generación VIII</option>
+        <option value="9">Generación IX</option>
+      </select>
+
+      <button id="loadBtn">Cargar generación</button>
+
+      <input id="search" placeholder="Buscar por nombre o id..." />
+      <div id="status" class="status"></div>
+    </section>
+
+    <section id="grid" class="grid"></section>
+
+    <footer>
+      <p>Datos e imágenes obtenidos desde <a href="https://pokeapi.co" target="_blank" rel="noreferrer">PokeAPI</a>. Este proyecto es una demo local.</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
