@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Guía de Jefes — Elden Ring</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    <header>
+      <h1>Guía de Jefes — Elden Ring</h1>
+      <p class="subtitle">Busca jefes (incluye soporte para DLC cuando agregues entradas). Haz clic en la imagen para ver la ficha completa.</p>
+    </header>
+
+    <section class="controls">
+      <input id="search" placeholder="Buscar por nombre..." />
+      <label><input type="checkbox" id="filterDlc" /> Mostrar solo DLC</label>
+      <div id="status" class="status"></div>
+    </section>
+
+    <section id="grid" class="grid"></section>
+
+    <footer>
+      <p>Proyecto local — añade o edita `bosses.json` para agregar más jefes o corregir datos.</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

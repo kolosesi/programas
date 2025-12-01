@@ -1,0 +1,232 @@
+[
+  {
+    "id": 1,
+    "name": "godrick",
+    "displayName": "Godrick el Empalador",
+    "dlc": false,
+    "image": "Godrick.jpg",
+  "weaknesses": ["Fuego", "Hemorrajia","Veneno"],
+  "resistances": [],
+  "recommended_weapon": "Armas afiladas rápidas, armas que produce hemorrajia y armas pesadas para romper la postura.",
+    "attack_timings": [
+      "Ráfaga de ataques cortos: 3 golpes rápidos (interruptible)",
+      "Carga de salto: telegráfica (pause antes del salto)",
+      "Golpe giratorio con la mano grande: tarda en finalizar - esquivar lateral"
+    ],
+    "lore": "Noble caído que mantenía su dominio mediante la fuerza y la mutilación de rivales; fue corrompido por su ambición de poder.",
+    "tips": [
+      "Intenta esquivar lateralmente los combos largos.",
+      "Utiliza resistencia y backstabs cuando abra su guardia.",
+      "El fuego y el sangrado aumentan la eficiencia contra él."
+    ]
+  },
+  {
+    "id": 2,
+    "name": "rennala",
+    "displayName": "Rennala, Reina de la Luna Llena",
+    "dlc": false,
+    "image": "elden-ring-rennala-boss-npc-runebearer-fight-scene-2805199805.jpg",
+    "weaknesses": ["Frostbite", "Rompe postura y Invocaciones"],
+    "recommended_weapon": "Armas que tiene efecto frostbite que puedes añadir en la arma utilizando la afinidad magic:cold, o Armas pesadas con la afinidad Heavy para romper la postura.",
+    "attack_timings": [
+      "Conjuro de bola mágica: carga breve y lanza proyectiles.",
+      "Invocación de orbes: se telegráfica y requiere puntería para esquivar.",
+      "Fase de apoyo: Invoca invocaciones cuales serán los siguientes: Dragon,Bloodhound Knight,Troll y un grupo de lobos"
+    ],
+    "lore": "Una académica ancestral que preservaba los secretos lunares; su poder está atado a rituales arcanos y a antiguas costumbres.",
+    "tips": [
+      "Rompe barreras mágicas cuando aparezcan para retomarte ofensiva, Utiliza armas con afinidad Magica:Frio para dañar con el efecto de Frostbite o Utilizar armas pesadas con afinidad pesado para romper más la postura con ataques de salto.",
+      "Ve corriendo de derecha o izquierda para esquivar sus ataques magicos y ve acercando cuando puedas.",
+      "Cuando realiza invocaciones corre hacia ella y ignora a los invocaciones por que solo aparece por un corto tiempo."
+    ]
+  },
+  {
+    "id": 3,
+    "name": "radahn",
+    "displayName": "Starscourge Radahn",
+    "dlc": false,
+    "image": "radahn-677303009.jpeg",
+    "weaknesses": ["Armas a distancia (parar su carga)", "Sangrado"],
+    "recommended_weapon": "Armas que permitan mantener la distancia o montura con ataques explosivos.",
+    "attack_timings": [
+      "Carga con espada enorme: largo prep time, esquivar lateralmente.",
+      "Ataque de proyectiles gravitacionales: telegráfico; mantener movimiento lateral.",
+      "Salto aplastante: prepárate para rodar al impacto."
+    ],
+    "lore": "Un general colosal conocido por su destreza en el campo de batalla; su historia está tejida en tragedia y gloria.",
+    "tips": [
+      "Usa la montura para reposicionarte y atacar cuando deje de cargar.",
+      "Los ataques a distancia que interrumpen funcionan bien para romper su ritmo.",
+      "Cuidado con los golpes con área, mantén distancia."
+    ]
+  },
+  {
+    "id": 4,
+    "name": "maliketh",
+    "displayName": "Maliketh",
+    "dlc": false,
+    "image": "maliketh.jpeg",
+  "weaknesses": ["Sorpresa y ataques rápidos", "Resistencia baja a ataques rápidos"],
+  "resistances": [],
+  "recommended_weapon": "Armas rápidas con buen 'stagger' o magia de alto daño por ráfaga.",
+    "attack_timings": [
+      "Embiste veloz en línea recta: evade al lado.",
+      "Giro rápido de garras: pequeñas ventanas de castigo.",
+      "Ataque cargado con área: prepárate para rodar hacia atrás."
+    ],
+    "lore": "Una figura trágica, uno de los guardianes cuyo rol fue distorsionado por el devenir de los tiempos.",
+    "tips": [
+      "Mantente agresivo pero atento a ventanas de contraataque.",
+      "Evita quedarte pegado por mucho tiempo tras recibir un golpe.",
+      "Fraccionar sus ataques con golpes pesados puede crear openings."
+    ]
+  }
+  ,
+  {
+    "id": 5,
+    "name": "margit",
+    "displayName": "Margit, el Augurio Caído",
+    "dlc": false,
+    "image": "margit.jpg",
+  "weaknesses": ["Parry/interrupt", "Ataques rápidos"],
+  "resistances": [],
+  "recommended_weapon": "Armas rápidas y movilidad; aprender los patrones de salto y golpe.",
+    "attack_timings": [
+      "Golpe en salto que suele terminar con un barrido: esquivar hacia un lado.",
+      "Combo de martillo: breve pausa antes del tercer golpe.",
+      "Ataque en área con bastón: distancia y vuelta." 
+    ],
+    "lore": "Un guerrero ritualizado, usado como aviso y prueba a los aventureros que entran en las tierras.",
+    "tips": [
+      "Bloquea/parry si dominas el timing para crear ventanas de castigo.",
+      "Mantente móvil; su combo largo es interrumpible con espacio.",
+      "Observa cuándo levanta el bastón: suele indicar ataques aéreos."
+    ]
+  },
+  {
+    "id": 6,
+    "name": "morgott",
+    "displayName": "Morgott, el Rey Caído",
+    "dlc": false,
+    "image": "images/morgott.jpg",
+  "weaknesses": ["Sangrado", "Interrupción"],
+  "resistances": [],
+  "recommended_weapon": "Armas que inflijan sangrado o fuertes stagger para abrir ventanas.",
+    "attack_timings": [
+      "Ráfaga de estocadas: suele haber una pausa entre serie y serie.",
+      "Golpe giratorio pesado: retrocede y espera la ventana.",
+      "Ataque mágico con telegráfica carga: interrumpible por daño constante."
+    ],
+    "lore": "Un soberano marcado por la decadencia del linaje; su caída es parte del ciclo trágico del reino.",
+    "tips": [
+      "Usa golpes fuertes tras sus ataques giratorios.",
+      "Mantén distancia contra arranques mágicos y castiga el recovery.",
+      "Los contadores y parries funcionan en manos expertas."
+    ]
+  },
+  {
+    "id": 7,
+    "name": "malenia",
+    "displayName": "Malenia, Espada de Miquella",
+    "dlc": false,
+    "image": "images/malenia.jpg",
+  "weaknesses": ["Espíritu y magia que interrumpa", "Sangrado moderado"],
+  "resistances": [],
+  "recommended_weapon": "Armas rápidas y esquiva perfecta; paciencia en los patrones de segundo tramo.",
+    "attack_timings": [
+      "Combo rápido de hojas: pequeñas ventanas entre series.",
+      "Ataque de recuperación con floración: retrocede y castiga.",
+      "Ráfaga aérea con fin de golpe: rodar hacia adelante suele funcionar."
+    ],
+    "lore": "Una figura trágica ligada al poder y la maldición; su lucha es tan icónica como peligrosa.",
+    "tips": [
+      "Practica esquivas perfectas: muchas aperturas se dan tras sus combos.",
+      "Controla la stamina y no seas avaro con los ataques.",
+      "Ten paciencia: es un jefe diseñado para pruebas prolongadas."
+    ]
+  },
+  {
+    "id": 8,
+    "name": "mohg",
+    "displayName": "Mohg, Señor de la Sangre",
+    "dlc": false,
+    "image": "images/mohg.jpg",
+  "weaknesses": ["Transfusión y fuego", "Mantener distancia en fases"],
+  "resistances": [],
+  "recommended_weapon": "Magia a distancia o armas con rango; evita el combate cuerpo a cuerpo sin preparación.",
+    "attack_timings": [
+      "Invoca área de sangre: muévete fuera del radio.",
+      "Carga ritual con golpe fuerte: pausa larga antes del impacto.",
+      "Teleport corto seguido de combo: bloqueo de sentido espacio-temporal."
+    ],
+    "lore": "Un ser que manipula sangre y ritos oscuros; su influencia corrompe a los que buscan poder.",
+    "tips": [
+      "Ten antídotos y curas listas si luchas con builds que sufren el daño sanguíneo.",
+      "Rompe sus áreas de efecto con movilidad y ataques transversales.",
+      "Los ataques a distancia suelen ser más seguros en su fase 2."
+    ]
+  },
+  {
+    "id": 9,
+    "name": "rykard",
+    "displayName": "Rykard, Señor de la Blasfemia",
+    "dlc": false,
+    "image": "images/rykard.png",
+  "weaknesses": ["Resistencia a fuego (contextual)", "Ataques contundentes"],
+  "resistances": [],
+  "recommended_weapon": "Armas contundentes o herramientas específicas que interrumpan su defendido ritual.",
+    "attack_timings": [
+      "Golpe con cola pesada: telegráfica y castigable tras recovery.",
+      "Ataque de área con ácido: moverse fuera del radio.",
+      "Serie de estocadas frontales: una pausa pequeña antes del último golpe."
+    ],
+    "lore": "Un señor que abrazó rituales profanos para obtener poder; su presencia envenena los espacios.",
+    "tips": [
+      "Observa las fases: su patrón cambia cuando su salud baja.",
+      "Usa golpes contundentes para romper guardias y crear openings.",
+      "Evita permanecer debajo de su torso durante ataques de cola."
+    ]
+  },
+  {
+    "id": 10,
+    "name": "elden_beast",
+    "displayName": "Elden Beast",
+    "dlc": false,
+    "image": "images/elden beast.jpg",
+  "weaknesses": ["Interrupción mágica", "Ataques a distancia con precisión"],
+  "resistances": [],
+  "recommended_weapon": "Build balanceada entre magia y daño físico; esquiva patrones mágicos largos.",
+    "attack_timings": [
+      "Barrido estelar: telegráfico con múltiples proyectiles.",
+      "Ataque de impacto cósmico: espacio para esquivar.",
+      "Secuencia de rayos: moverse con patrones circulares."
+    ],
+    "lore": "Una entidad vinculada al final del ciclo; su naturaleza es más allá de la comprensión humana.",
+    "tips": [
+      "Aprende los patrones de proyectiles para maximizar esquivas.",
+      "Mantén mana/recursos para fases largas y castiga durante sus recovery.",
+      "Ten cuidado con el espacio de batalla: algunos ataques cambian el terreno."
+    ]
+  },
+  {
+    "id": 11,
+    "name": "messmer",
+    "displayName": "Messmer, el Empalador",
+    "dlc": true,
+    "image": "images/messmer.jpg",
+  "weaknesses": ["Sangrado", "Frostbite"],
+  "resistances": [],
+  "recommended_weapon": "Armas que inflijan sangrado o frostbite, armas pesada para romper postura",
+    "attack_timings": [
+      "Carga con empalamiento: larga preparación, esquivar lateralmente.",
+      "Serie de estocadas rápidas: pequeñas ventanas entre series.",
+      "Ataque giratorio con daño en área: retroceder y castigar en el recovery."
+    ],
+    "lore": "Una figura ligada a las antiguas cruzadas del Shadow Lands; su nombre inspira temor por la brutalidad de su rito de empalamiento.",
+    "tips": [
+      "Mantén la calma y busca las ventanas tras sus cargas largas.",
+      "Usa ataques de interrupción tras su empalamiento para castigar.",
+      "Si cuentas con resistencia al sangrado, prioriza infligir daño sostenido mientras evitas su combo final."
+    ]
+  }
+]
